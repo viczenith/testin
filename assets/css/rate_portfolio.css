@@ -1,0 +1,33 @@
+/* Rate Section */
+.ratePortfolio-section .rate-section{
+    margin-top: 4rem;
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5rem 0;
+}
+.ratePortfolio-section .rate-section div{
+    text-align: center;
+}
+.ratePortfolio-section .rate-section div h2,.p{
+    color: white;
+}
+.ratePortfolio-section .rate-section div h2{
+    padding-bottom: 1rem;
+}
+
+/* Portfolio Section */
+.ratePortfolio-section .portfolio{
+    background-image: url('/assets/images/parallax2.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ratePortfolio-section .portfolio p{
+    font-size: 36px;
+    letter-spacing: 10px;
+}

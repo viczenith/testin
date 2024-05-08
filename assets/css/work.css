@@ -1,0 +1,45 @@
+.work-section{
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+.work-section .heading{
+    text-align: center;
+}
+.work-section .heading h1{
+    font-weight: 100;
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+}
+.work-section .heading p{
+    line-height: 24px;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+
+.work-section .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+.work-section .images img{
+    width: 100%;
+}
+.work-section .images img:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.work-section .button-btn{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.work-section .button-btn button{
+    padding: 16px 24px;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+.work-section .button-btn button:hover{
+    background-color: rgb(213, 211, 211);
+}

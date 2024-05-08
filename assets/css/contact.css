@@ -1,0 +1,84 @@
+.contact-section .contact{
+    background-image: url('/assets/images/parallax3.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+    margin-bottom: 4rem;
+}
+.contact-section .contact p{
+    font-size: 36px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.whereIWork{
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+.whereIWork .contact-heading{
+    text-align: center;
+}
+.whereIWork .contact-heading h1{
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+.whereIWork .contact-heading p{
+    line-height: 24px;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+.whereIWork .form-address{
+    display: flex;
+}
+.whereIWork .form-address .map{
+    padding-right: 3rem;
+}
+.whereIWork .form-address .map img{
+    width: 283.984px;
+    border-radius: 5px;
+}
+.whereIWork .form-address .form .form-top h2{
+    font-weight: 100;
+    margin: .6rem 0;
+    font-size: 19px;
+}
+.whereIWork .form-address .form form{
+    margin-top: 1rem;
+}
+.whereIWork .form-address .form form .input-1{
+    margin-bottom: .7rem;
+}
+.whereIWork .form-address .form form .input-1 input{
+    width: 249px;
+    height: 6vh;
+}
+.whereIWork .form-address .form form .input-2 input{
+    width:508px;
+    height: 6vh;
+}
+.whereIWork .form-address .form .contact-btn{
+    text-align: end;
+    margin-top: 1rem;
+}
+
+.whereIWork .form-address .form .contact-btn button{
+    padding: 0.7rem 1.2rem;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.whereIWork .form-address .form .contact-btn button:hover{
+    background-color: rgb(200, 198, 198);
+    color: black;
+}
+.whereIWork .form-address .form .contact-btn button:hover,i{
+    color: black !important;
+}
+.whereIWork .form-address .form .contact-btn button i{
+    color: white;
+}

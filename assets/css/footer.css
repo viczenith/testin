@@ -1,0 +1,49 @@
+footer{
+    background-color: rgb(151, 151, 151);
+    text-align: center;
+    margin-top: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+footer .toTheTop{
+    margin-bottom: 1.3rem;
+    padding: .6rem 1.2rem;
+    color: black;
+    font-size: 14px;
+    background-color: rgb(244, 243, 243);
+    display: inline-block;
+}
+footer .toTheTop:hover{
+    background-color: rgb(216, 214, 214);
+}
+footer .toTheTop .fa-arrow-up{
+    padding-right: 14px;
+    font-size: 15px;
+}
+footer .toTheTop a{
+    text-decoration: none;
+    color: black;
+}
+footer .icon-container{
+    margin-bottom: 1.3rem;
+}
+footer .icon-container i{
+    color: white !important;
+    font-size: 23px;
+}
+footer .icon-container i:hover{
+    color: rgb(144, 143, 143) !important;
+}
+footer .w3{
+    font-size: 15px;
+    color: white;
+}
+footer .w3 a{
+    color: white;
+}
+footer .w3 a:hover{
+    color: forestgreen;
+}
+footer:hover{
+    background-color: black;
+}

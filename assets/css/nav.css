@@ -1,0 +1,26 @@
+.nav-section nav{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    box-shadow: 4px 4px 6px rgb(188, 187, 187);
+}
+.nav-section nav .left a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+.nav-section nav .left a:hover{
+    background-color: rgb(236, 234, 234);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav-section nav .right a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav-section nav .right a:hover{
+    background-color: red;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

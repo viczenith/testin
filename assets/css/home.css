@@ -1,0 +1,25 @@
+.home-section{
+    background-image: url('../images/parallax1.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home-section .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.home-section h1{
+    background-color: black;
+    display: inline-block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 100;
+    letter-spacing: 12px;
+    font-size: 25px;
+    color: white;
+}

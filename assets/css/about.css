@@ -1,0 +1,77 @@
+.about-section{
+    padding-top: 4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+.about-section .heading{
+    text-align: center;
+
+}
+.about-section .heading h1{
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+}
+.about-section .heading p{
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+.about-section .paragraph p{
+    line-height: 30px;
+}
+
+.about-section .left-right{
+    display: flex;
+    padding-top: 3.5rem;
+}
+.about-section .left h3{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.about-section .left h3 i{
+    font-size: 13px;
+}
+.about-section .left img{
+    width: 425.984px;
+    border-radius: 5px;
+    opacity: .5;
+}
+.about-section .left img:hover{
+    opacity: 1;
+}
+
+.about-section .right{
+    line-height: 30px;
+    padding-left: 3rem;
+}
+/* Progress section */
+.about-section .progress-section .top{
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+.about-section .progress-section .bottom div p{
+    letter-spacing: 12px;
+    padding: 1rem 0;
+}
+.about-section .progress-section .bottom div .bottom-bar{
+    background-color: rgb(231, 230, 230);
+    padding: 0px 0;
+}
+.about-section .progress-section .bottom div .bottom-bar div{
+    background-color: rgb(100, 100, 100);
+    padding: 8px 0;
+    text-align: center;
+    color: white;
+}
+.about-section .progress-section .bottom div .bottom-bar .inner-bar1{
+    width: 90%;
+}
+.about-section .progress-section .bottom div .bottom-bar .inner-bar2{
+    width: 85%;
+}
+.about-section .progress-section .bottom div .bottom-bar .inner-bar3{
+    width: 75%;
+}
+
